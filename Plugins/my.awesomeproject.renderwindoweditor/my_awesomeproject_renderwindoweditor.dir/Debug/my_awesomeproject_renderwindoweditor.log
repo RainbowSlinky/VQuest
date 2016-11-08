@@ -1,0 +1,9 @@
+﻿Build started 10/26/2016 3:23:20 PM.
+     1>Project "D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\my_awesomeproject_renderwindoweditor.vcxproj" on node 4 (Build target(s)).
+     1>Link:
+         my_awesomeproject_renderwindoweditor.vcxproj -> D:\MITK-AW-SP\AwesomeProject-build\bin\plugins\Debug\libmy_awesomeproject_renderwindoweditor.dll
+     1>Done Building Project "D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\my_awesomeproject_renderwindoweditor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37

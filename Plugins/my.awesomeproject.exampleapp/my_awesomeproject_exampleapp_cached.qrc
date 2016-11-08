@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/my.awesomeproject.exampleapp">
+<file>plugin.xml</file>
+<file>resources/icon_research.xpm</file>
+</qresource>
+</RCC>
+
+

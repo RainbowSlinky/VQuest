@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{199AD401-57A2-322B-996C-B874B3BC734C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\application;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\registry;D:\MITK-AW-SP\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\Core;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\application;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\registry;D:\MITK-AW-SP\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\Core;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\application;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\registry;D:\MITK-AW-SP\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\Core;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\application;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;D:\MITK-AW-SP\MITK\Plugins\org.blueberry.core.runtime\src\registry;D:\MITK-AW-SP\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK\Libs\Core;D:\MITK-AW-SP\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MITK-ProjectTemplate -BD:/MITK-AW-SP/AwesomeProject-build --check-stamp-file D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Poco_Config.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationTargets.cmake;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\AwesomeApp.ini;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MITK-ProjectTemplate -BD:/MITK-AW-SP/AwesomeProject-build --check-stamp-file D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Poco_Config.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationTargets.cmake;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\AwesomeApp.ini;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MITK-ProjectTemplate -BD:/MITK-AW-SP/AwesomeProject-build --check-stamp-file D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Poco_Config.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationTargets.cmake;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\AwesomeApp.ini;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MITK-ProjectTemplate -BD:/MITK-AW-SP/AwesomeProject-build --check-stamp-file D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Poco_Config.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfigVersion.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationConfig.cmake;D:\MITK-AW-SP\MITK-superbuild\ep\lib\cmake\Poco\PocoFoundationTargets.cmake;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\AwesomeApp.ini;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-ProjectTemplate\Apps\AwesomeApp\startAwesomeApp.bat.in;D:\MITK-AW-SP\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\MITK-ProjectTemplate\Apps\AwesomeApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\MITK-AW-SP\AwesomeProject-build\Apps\AwesomeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/MITK-AW-SP/AwesomeProject-build/ZERO_CHECK.vcxproj">
+      <Project>BF42D5EB-18A0-35D0-A91D-41F3BB13FE85</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/MITK-AW-SP/AwesomeProject-build/Apps/AwesomeApp/AwesomeApp.vcxproj">
+      <Project>CDF2AD04-DD38-39DE-AE71-FB70380C09DC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

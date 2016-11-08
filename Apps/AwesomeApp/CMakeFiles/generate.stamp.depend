@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+D:/MITK-ProjectTemplate/Apps/AwesomeApp/CMakeLists.txt
+D:/MITK-AW-SP/MITK/CMake/PackageDepends/MITK_Poco_Config.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/lib/cmake/Poco/PocoConfigVersion.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/lib/cmake/Poco/PocoConfig.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/lib/cmake/Poco/PocoFoundationConfigVersion.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/lib/cmake/Poco/PocoFoundationConfig.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/lib/cmake/Poco/PocoFoundationTargets.cmake
+D:/MITK-AW-SP/MITK/CMake/PackageDepends/MITK_Qt5_Config.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5/Qt5Config.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+D:/MITK-ProjectTemplate/Apps/AwesomeApp/AwesomeApp.ini
+D:/MITK-ProjectTemplate/Apps/AwesomeApp/startAwesomeApp.bat.in
+D:/MITK-ProjectTemplate/Apps/AwesomeApp/startAwesomeApp.bat.in
+D:/MITK-AW-SP/MITK/CMake/PackageDepends/MITK_Qt5_Config.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5/Qt5Config.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake

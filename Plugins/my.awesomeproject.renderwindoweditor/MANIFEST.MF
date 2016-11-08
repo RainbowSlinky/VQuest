@@ -1,0 +1,7 @@
+Plugin-SymbolicName: my.awesomeproject.renderwindoweditor
+Plugin-ContactAddress: http://www.mitk.org
+Plugin-Name: Awesome Render Window Editor
+Require-Plugin: org.mitk.gui.qt.common
+Plugin-Vendor: DKFZ, Medical and Biological Informatics
+Plugin-Version: 1.0.0
+

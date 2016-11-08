@@ -1,0 +1,6 @@
+7 5
+my_awesomeproject_exampleplugin org_mitk_gui_qt_common
+my_awesomeproject_exampleapp org_mitk_gui_qt_ext
+my_awesomeproject_renderwindoweditor org_mitk_gui_qt_common
+AwesomeApp my_awesomeproject_exampleapp
+AwesomeApp org_mitk_gui_qt_datamanager

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.renderwindoweditor\src\internal\my_awesomeproject_renderwindoweditor_Activator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.renderwindoweditor\src\internal\QmitkAwesomeRenderWindowEditor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\src\internal\moc_my_awesomeproject_renderwindoweditor_Activator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\src\internal\moc_QmitkAwesomeRenderWindowEditor.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\qrc_my_awesomeproject_renderwindoweditor_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\qrc_my_awesomeproject_renderwindoweditor_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.renderwindoweditor\src\internal\my_awesomeproject_renderwindoweditor_Activator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.renderwindoweditor\src\internal\QmitkAwesomeRenderWindowEditor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.renderwindoweditor\CMakeLists.txt" />
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\a1272dc63949444274078d5a8e3baf53\moc_my_awesomeproject_renderwindoweditor_Activator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\a1272dc63949444274078d5a8e3baf53\moc_QmitkAwesomeRenderWindowEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\my_awesomeproject_renderwindoweditor_manifest.qrc" />
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.renderwindoweditor\my_awesomeproject_renderwindoweditor_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C2FD5A7-6D79-3CF0-82F8-9F0675BE4927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{8C5F088B-902A-3708-B280-CB5DF504A6FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{5AD8A393-59F1-30B3-B9F6-B370C1338CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{F0AAC733-FBFC-355E-A084-8D2AA5D62244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

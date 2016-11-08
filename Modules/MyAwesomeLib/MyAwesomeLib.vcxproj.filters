@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Modules\MyAwesomeLib\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Modules\MyAwesomeLib\src\AwesomeImageFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Modules\MyAwesomeLib\src\AwesomeImageInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Modules\MyAwesomeLib\us_MyAwesomeLib\us_resources.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MITK-ProjectTemplate\Modules\MyAwesomeLib\CMakeLists.txt" />
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\c86961c2e4dd7ef52931593d3e0f8ff0\res_0.zip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\c86961c2e4dd7ef52931593d3e0f8ff0\us_resources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C2FD5A7-6D79-3CF0-82F8-9F0675BE4927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{8C5F088B-902A-3708-B280-CB5DF504A6FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

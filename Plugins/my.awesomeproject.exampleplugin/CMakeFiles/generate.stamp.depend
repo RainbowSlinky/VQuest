@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/CMakeLists.txt
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/files.cmake
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/manifest_headers.cmake
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/manifest_headers.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake
+C:/Qt/5.4/msvc2013_64_opengl/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/CMakeParseArguments.cmake
+D:/MITK-AW-SP/MITK-superbuild/ep/src/CTK/Libs/ctkExport.h.in
+D:/MITK-AW-SP/MITK-superbuild/ep/src/CTK/CMake/MANIFEST.MF.in
+D:/MITK-AW-SP/MITK-superbuild/ep/src/CTK/CMake/plugin_manifest.qrc.in
+D:/MITK-AW-SP/AwesomeProject-build/Plugins/my.awesomeproject.exampleplugin/my_awesomeproject_exampleplugin_manifest.qrc
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/resources/AwesomeIcon.png
+D:/MITK-ProjectTemplate/Plugins/my.awesomeproject.exampleplugin/plugin.xml
+D:/MITK-AW-SP/MITK-superbuild/ep/src/CTK/CMake/plugin_resources_cached.qrc.in
+D:/MITK-AW-SP/AwesomeProject-build/Plugins/my.awesomeproject.exampleplugin/my_awesomeproject_exampleplugin_cached.qrc

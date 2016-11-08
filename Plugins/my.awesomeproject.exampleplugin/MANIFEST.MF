@@ -1,0 +1,7 @@
+Plugin-SymbolicName: my.awesomeproject.exampleplugin
+Plugin-ContactAddress: http://www.awesomeproject.my
+Plugin-Name: Awesome Example Plugin
+Require-Plugin: org.mitk.gui.qt.common
+Plugin-Vendor: Awesome Company
+Plugin-Version: 0.1
+

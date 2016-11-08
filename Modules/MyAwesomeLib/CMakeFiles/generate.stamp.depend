@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+D:/MITK-ProjectTemplate/Modules/MyAwesomeLib/CMakeLists.txt
+D:/MITK-ProjectTemplate/Modules/MyAwesomeLib/files.cmake
+D:/MITK-AW-SP/MITK-superbuild/MITK-build/Modules/CppMicroServices/CppMicroServicesConfigVersion.cmake
+D:/MITK-AW-SP/MITK-superbuild/MITK-build/Modules/CppMicroServices/CppMicroServicesConfig.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/CMakeParseArguments.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionGenerateModuleInit.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionAddResources.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionCheckCompilerFlags.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionEmbedResources.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionCheckResourceLinking.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usFunctionGetResourceSource.cmake
+D:/MITK-AW-SP/MITK-superbuild/MITK-build/Modules/CppMicroServices/usCoreConfigVersion.cmake
+D:/MITK-AW-SP/MITK-superbuild/MITK-build/Modules/CppMicroServices/usCoreConfig.cmake
+D:/MITK-AW-SP/MITK/Modules/CppMicroServices/cmake/usModuleInit.cpp
+C:/Program Files/CMake/share/cmake-3.6/Modules/exportheader.cmake.in

@@ -1,0 +1,24 @@
+﻿Build started 10/26/2016 3:23:20 PM.
+     1>Project "D:\MITK-AW-SP\AwesomeProject-build\Modules\MyAwesomeLib\MyAwesomeLib.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         MyAwesomeLib.vcxproj -> D:\MITK-AW-SP\AwesomeProject-build\bin\Debug\MyAwesomeLib.dll
+       PostBuildEvent:
+         setlocal
+         cd D:\MITK-ProjectTemplate\Modules\MyAwesomeLib
+         if %errorlevel% neq 0 goto :cmEnd
+         D:
+         if %errorlevel% neq 0 goto :cmEnd
+         D:\MITK-AW-SP\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe --append D:/MITK-AW-SP/AwesomeProject-build/bin/Debug/MyAwesomeLib.dll D:/MITK-AW-SP/AwesomeProject-build/Modules/MyAwesomeLib/us_MyAwesomeLib/res_0.zip
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "D:\MITK-AW-SP\AwesomeProject-build\Modules\MyAwesomeLib\MyAwesomeLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.46

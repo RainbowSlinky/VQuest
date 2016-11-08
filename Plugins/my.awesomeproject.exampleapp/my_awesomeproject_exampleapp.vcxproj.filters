@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\mitkExampleAppPluginActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomeApplication.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomeWorkbenchAdvisor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomePerspective.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\src\internal\moc_QmitkAwesomeApplication.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\src\internal\moc_mitkExampleAppPluginActivator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\src\internal\moc_QmitkAwesomePerspective.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\qrc_ExampleApp.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\qrc_my_awesomeproject_exampleapp_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\qrc_my_awesomeproject_exampleapp_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\mitkExampleAppPluginActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomeApplication.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomeWorkbenchAdvisor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\src\internal\QmitkAwesomePerspective.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\CMakeLists.txt" />
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\4866aa8d7feee4c434245db6e420f604\moc_QmitkAwesomeApplication.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\4866aa8d7feee4c434245db6e420f604\moc_mitkExampleAppPluginActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\CMakeFiles\4866aa8d7feee4c434245db6e420f604\moc_QmitkAwesomePerspective.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-ProjectTemplate\Plugins\my.awesomeproject.exampleapp\resources\ExampleApp.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\my_awesomeproject_exampleapp_manifest.qrc" />
+    <CustomBuild Include="D:\MITK-AW-SP\AwesomeProject-build\Plugins\my.awesomeproject.exampleapp\my_awesomeproject_exampleapp_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C2FD5A7-6D79-3CF0-82F8-9F0675BE4927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{8C5F088B-902A-3708-B280-CB5DF504A6FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{5AD8A393-59F1-30B3-B9F6-B370C1338CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Resource Files">
+      <UniqueIdentifier>{EEFC9ED0-134A-3A1C-A8C3-35E431FDC0C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{F0AAC733-FBFC-355E-A084-8D2AA5D62244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
